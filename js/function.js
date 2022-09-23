@@ -1,7 +1,6 @@
 
 			var audioPlayer = document.getElementById('audioplayer');
 			var loaded = false;
-
 			var playBtn = document.getElementById('playBtn');
 			var pauseBtn = document.getElementById('pauseBtn');
 
@@ -33,9 +32,6 @@
 					}
 
 					audioPlayer.load();
-
-
-
 					playBtn.style.display = "none";
 					pauseBtn.style.display = "inline";
 
@@ -48,8 +44,6 @@
 					let artist = item.getAttribute('data-artist');
 					let song = item.getAttribute('data-song');
 					let file = item.getAttribute('data-file');
-
-
 					let playerArtistComponent = document.getElementsByClassName('player__artist');
 
 					playerArtistComponent[0].innerHTML = `

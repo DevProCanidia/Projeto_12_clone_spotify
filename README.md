@@ -17,10 +17,14 @@ Tecnologias
 * Otimizado para SEO
 * Compatível com vários navegadores
 * Código fácil de personalizar, limpar e comentado
-* Layout responsivo
 * Ícones Personalizados
 * sem uso de api para tocar as músicas, apenas com java script puro.
 <!--ts-->
+
+Pendências
+=================
+* Criar layout responsivo mobile
+
 
 ## 💪 Como contribuir no projeto
 
